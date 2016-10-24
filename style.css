@@ -68,6 +68,7 @@ body {
 		padding-top: 10%;
 	}
 	#arrow {
+		position: fixed;
 		display: block;
 		float: bottom;
 		bottom: 0px;
