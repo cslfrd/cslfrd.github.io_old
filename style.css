@@ -49,7 +49,6 @@ body {
 
 	#mobile {
 		display: inline;
-		z-index: 1;
 	}
 	#desktop {
 		display: none;
@@ -72,9 +71,8 @@ body {
 		position: fixed;
 		display: block;
 		bottom: 0px;
-		width: 80%;
-		padding-left: 10%;
-		padding-top: 10%;
+		width: 100%;
+		padding: 0;
 	}
 
 } /* MOBILE MEDIA */
