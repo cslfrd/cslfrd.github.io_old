@@ -32,3 +32,31 @@ div {
 #mobile {
 	display: none;
 }
+
+
+/* MOBILE */
+
+@media only screen max-width: 568px {
+
+	#mobile {
+		display: inline;
+	}
+	img {
+		width: 85%;
+		padding-left: 10%;
+		padding-bottom: 16px;
+	}
+	div {
+		height: auto;
+		padding-bottom: 35%;
+	}
+	#header {
+		width: 80%;
+		padding-left: 10%;
+		padding-top: 10%;
+	}
+	#desktop {
+		display: none;
+	}
+
+}
