@@ -36,7 +36,7 @@ div {
 
 /* MOBILE */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 920px) {
 
 	#mobile {
 		display: inline;
