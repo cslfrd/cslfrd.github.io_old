@@ -23,24 +23,29 @@ body {
 /*@media only screen and (min-width: 700px) {*/
 @media only screen and (orientation: landscape) {
 
-img {
-	width: 80%;
-	padding-left:10%;
-	padding-bottom: 32px;
-}
-div {
-	height: auto;
-	padding-bottom: 20%;
-}
-#header {
-	padding-top: 10%;
-}
-#mobile {
-	display: none;
-}
+	img {
+		width: 80%;
+		padding-left:10%;
+		padding-bottom: 32px;
+	}
+	div {
+		height: auto;
+		padding-bottom: 20%;
+	}
+	#header {
+		padding-top: 10%;
+	}
+	#mobile {
+		display: none;
+	}
+	
 } /* DESKTOP MEDIA */
 
+
+
 /* MOBILE */
+
+@media only screen and (orientation: portrait) {
 
 	#mobile {
 		display: inline;
@@ -62,3 +67,5 @@ div {
 		padding-left: 10%;
 		padding-top: 10%;
 	}
+
+} /* MOBILE MEDIA */
