@@ -78,6 +78,7 @@ body {
 	}
 	#whiteback {
 		z-index: 1;
+		background-color: #ffffff;
 	}
 
 } /* MOBILE MEDIA */
