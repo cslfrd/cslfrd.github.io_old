@@ -70,7 +70,6 @@ body {
 	#arrow {
 		position: fixed;
 		display: block;
-		float: bottom;
 		bottom: 0px;
 		width: 80%;
 		padding-left: 10%;
