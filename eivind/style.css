@@ -19,16 +19,23 @@ body {
 }
 
 img {
-	width: 60%;
+	width: 100%;
 	margin: 0;
 	padding-bottom: 32px;
 	padding-top: 32px;
 }
+
 div {
-	width: 80%;
+	width: 60%;
 	height: auto;
 	margin: 0;
-	padding-bottom: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
+	padding-bottom: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
