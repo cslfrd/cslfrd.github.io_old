@@ -17,6 +17,11 @@ body {
 
 }
 
+
+/* DESKTOP */
+
+@media only screen and (min-width: 700px) {
+
 img {
 	width: 80%;
 	padding-left:10%;
@@ -32,11 +37,9 @@ div {
 #mobile {
 	display: none;
 }
-
+} /* DESKTOP MEDIA */
 
 /* MOBILE */
-
-@media only screen and (max-width: 568px) {
 
 	#mobile {
 		display: inline;
@@ -58,5 +61,3 @@ div {
 		padding-left: 10%;
 		padding-top: 10%;
 	}
-
-}
