@@ -49,6 +49,7 @@ body {
 
 	#mobile {
 		display: inline;
+		z-index: 1;
 	}
 	#desktop {
 		display: none;
