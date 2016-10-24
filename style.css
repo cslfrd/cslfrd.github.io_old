@@ -63,14 +63,14 @@ body {
 		padding-bottom: 35%;
 	}
 	#header {
-		width: 80%;
-		padding-left: 10%;
+		width: 100%;
+		padding: 0;
 		padding-top: 10%;
 	}
 	#arrow {
-		position: fixed;
+		/*position: fixed;
 		display: block;
-		bottom: 0px;
+		bottom: 0px;*/
 		width: 100%;
 		padding: 0;
 		height: auto;
