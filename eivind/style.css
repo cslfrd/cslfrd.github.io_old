@@ -12,6 +12,25 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
+* {
+	font-family: Helvetica, Arial;
+}
+h1 {
+	font-size: 34pt;
+	text-align: center;
+}
+h2 {
+	font-size: 18pt;
+	text-align: left;
+}
+p, ul, li {
+	font-size: 11pt;
+}
+
+ul {
+	list-style-type: url('list.png');
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -34,8 +53,7 @@ div {
 	margin-right: 20%;
 }
 
-h1 {
-	text-align: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
+h1, h2 {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
