@@ -67,5 +67,12 @@ body {
 		padding-left: 10%;
 		padding-top: 10%;
 	}
+	#arrow {
+		float: bottom;
+		bottom: 0px;
+		width: 80%;
+		padding-left: 10%;
+		padding-top: 10%;
+	}
 
 } /* MOBILE MEDIA */
