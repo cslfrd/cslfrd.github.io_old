@@ -55,10 +55,17 @@
 
 <div id="arrow">
 <a href="#first"><img src="images/mobile/arrow.png"></img></a>
+<script>
+window.onscroll = function(){
+
+   if(window.scrollY >= 500) { // change target to number
+      document.getElementById('arrow').style.position = 'absolute';
+      document.getElementById('arrow').style.top = 500;
+   }
+
+};
+</script>
 </div>
-
-
-<div id="whiteback"> <!-- HVIT BAKGRUNN -->
 
 <div id="first">
 <img src="images/mobile/portfolio_mobile_2.jpg"></img>
@@ -92,8 +99,6 @@
 <img src="images/mobile/portfolio_mobile_18.jpg"></img>
 <img src="images/mobile/portfolio_mobile_19.jpg"></img>
 </div>
-
-</div> <!-- HVIT BAKGRUNN -->
 
 
 </div>

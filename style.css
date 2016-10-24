@@ -74,11 +74,6 @@ body {
 		width: 100%;
 		padding: 0;
 		height: auto;
-		z-index: -1;
-	}
-	#whiteback {
-		z-index: 1;
-		background-color: #ffffff;
 	}
 
 } /* MOBILE MEDIA */
