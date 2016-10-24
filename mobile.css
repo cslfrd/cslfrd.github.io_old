@@ -13,13 +13,13 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 /* CSS Document */
 
 body {
-	
+	width: 100%;
 
 }
 
 img {
-	width: 80%;
-	padding-left:10%;
+	width: 90%;
+	padding-left:5%;
 	padding-bottom: 32px;
 }
 div {
